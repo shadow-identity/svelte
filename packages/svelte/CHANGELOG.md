@@ -1,5 +1,16 @@
 # svelte
 
+## 5.20.5
+
+### Patch Changes
+
+- fix: allow double hyphen css selector names ([#15384](https://github.com/sveltejs/svelte/pull/15384))
+
+- fix: class:directive not working with $restProps #15386 ([#15389](https://github.com/sveltejs/svelte/pull/15389))
+  fix: spread add an useless cssHash on non-scoped element
+
+- fix: allow for duplicate `var` declarations ([#15382](https://github.com/sveltejs/svelte/pull/15382))
+
 ## 5.20.4
 
 ### Patch Changes
